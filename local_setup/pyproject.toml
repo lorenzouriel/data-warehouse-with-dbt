@@ -1,0 +1,16 @@
+[project]
+name = "local-setup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.1"
+dependencies = [
+    "astronomer-cosmos>=1.10.1",
+    "dbt-core>=1.9.6",
+    "dbt-postgres>=1.9.0",
+    "duckdb>=1.3.0",
+    "faker>=37.3.0",
+    "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "pycryptodome>=3.23.0",
+]
