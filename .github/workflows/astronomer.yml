@@ -6,7 +6,6 @@ on:
       - master
 
 env:
-  ## Sets Deployment API credentials as environment variables
   ASTRO_API_TOKEN: ${{ secrets.ASTRO_API_TOKEN }}
 
 jobs:
