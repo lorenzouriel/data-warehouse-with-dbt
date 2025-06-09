@@ -1,0 +1,3 @@
+[submodule "dbt/data-warehouse-with-dbt"]
+	path = dbt/data-warehouse-with-dbt
+	url = https://github.com/lorenzouriel/data-warehouse-with-dbt
