@@ -47,5 +47,3 @@ my_cosmos_dag = DbtDag(
     default_args={"retries": 2},
     #atualizando
 )
-
-dag = build_dag()
