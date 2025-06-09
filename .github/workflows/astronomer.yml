@@ -17,4 +17,4 @@ jobs:
       with:
             deployment-id: ${{ secrets.ASTRO_DEPLOYMENT_ID }}
             deploy-type: dbt
-            root-folder: jornada_dw
+            root-folder: data_warehouse/jornada_dw
