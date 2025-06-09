@@ -40,10 +40,10 @@ jobs:
           EOF
 
       - name: dbt deps
-        working-directory: jornada_dw
+        working-directory: data_warehouse/jornada_dw
         run: dbt deps --profiles-dir ~/.dbt
 
 
       - name: dbt build
-        working-directory: jornada_dw
+        working-directory: data_warehouse/jornada_dw
         run: dbt build --profiles-dir ~/.dbt
