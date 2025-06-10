@@ -10,12 +10,16 @@
 ```bash
 cd data_warehouse
 
+# Constrói todo o pipeline (models + seeds + snapshots + tests)
 dbt build
 
+# (Opcional) Instala dependências externas (se houver pacotes dbt no projeto)
 dbt deps
 
+# Executa os modelos dbt
 dbt run
 
+# Gera e abre a documentação dos modelos
 dbt docs generate
 dbt docs serve
 ```
