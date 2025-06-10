@@ -1,7 +1,6 @@
 from airflow.models import Variable
 from airflow.sdk import Asset, dag, task
 
-
 dbt_env = Variable.get("dbt_env", default_var="dev").lower()
 
 if dbt_env not in ("dev", "prod"):
