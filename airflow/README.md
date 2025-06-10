@@ -20,12 +20,3 @@ astro dev start
 # Usuário: admin
 # Senha: admin
 ```
-
-### Como Rodar na Nuvem (Astronomer Cloud):
-```bash
-# 1. Faça login na Astronomer
-astro login
-
-# 2. Faça deploy
-astro deploy
-```
